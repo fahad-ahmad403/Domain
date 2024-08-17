@@ -602,3 +602,56 @@ footer {
         font-size: 0.8em;
     }
 }
+
+@media screen and (max-width: 440px) {
+    header nav {
+        padding: 0.8em 1em;
+    }
+
+    li a {
+        font-size: 0.8em;
+    }
+
+    .btn_1 {
+        font-size: 0.8em;
+    }
+
+    .nav_icon {
+        top: 0.7em;
+        left: 1em;
+    }
+
+    .hero_heading {
+        padding-top: 0.5em;
+        font-size: 4em;
+    }
+
+    .hero_section {
+        height: 300px;
+    }
+
+    .card_container .box_1 .card,
+    .card_container .box_2 .card,
+    .card_container .box_3 .card {
+        width: 270px;
+    }
+
+    .box_1 .card_heading,
+    .box_2 .card_heading,
+    .box_3 .card_heading {
+        font: 1em;
+    }
+
+    footer {
+        height: 400px;
+    }
+
+    .footer_text {
+        font-size: 1.5em;
+        width: 200px;
+    }
+
+    .footer_box2 {
+        padding-top: 0;
+    }
+}
