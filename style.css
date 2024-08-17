@@ -586,7 +586,7 @@ footer {
     }
 
     .footer_box2 {
-        padding-top: 4em;
+        padding-top: 0.5em;
     }
 
     .footer_text {
@@ -639,20 +639,21 @@ footer {
     .box_1 .card_heading,
     .box_2 .card_heading,
     .box_3 .card_heading {
-        font: 1em;
+        font-size: 3em;
     }
 
     footer {
-        height: 400px;
+        height: 350px;
     }
 
     .footer_text {
         font-size: 1.5em;
-        width: 200px;
+        width: 230px;
     }
 
     .footer_box2 {
-        padding-top: 0;
+        padding-top: 2em;
+        margin: 0 2em;
     }
 }
 
