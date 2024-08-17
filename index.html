@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="mobile_nav"><a href="#">Home</a></li>
+                <li class="mobile_nav"><a href="#" onclick="dropdown()" id="arrow">Features <i
+                            class="fa-solid fa-angle-down"></i></a></li>
+                <div class="sub_menu">
+                    <a href="#">Feature-1</a>
+                    <a href="#">Feature-2</a>
+                    <a href="#">Feature-3</a>
+                    <a href="#">Feature-4</a>
+                </div>
+                <li class="mobile_nav"><a href="#">Pricing</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Log in</a></li>
+                <div class="btn_1">Sign up</div>
+            </ul>
+        </nav>
+        <li class="nav_icon"><i class="fa-solid fa-bars" onclick="open_sidebar()"></i></li>
+        <div class="mobile_sidebar">
+            <div onclick="close_sidebar()"><i class="fa-solid fa-xmark"></i></div>
+            <a href="#">Home</a>
+            <div class="sidebar_links">
+                <a href="#" class="dropdown_links activelink" onclick="dropdown_display()">Features <i
+                        class="fa-solid fa-caret-down"></i></a>
+                <div class="mobile_submenu">
+                    <a href="#">Feature-1</a>
+                    <a href="#">Feature-2</a>
+                    <a href="#">Feature-3</a>
+                    <a href="#">Feature-4</a>
+                </div>
+            </div>
+            <a href="#">Pricing</a>
+            <a href="#">Help</a>
+            <span class="line"></span>
+        </div>
+    </header>
+    <section class="hero_section">
+        <div class="hero_container">
+            <div class="hero_heading">
+                <span class="d">D</span><span class="o">o</span><span class="m">m</span><span class="a">a</span><span
+                    class="i">i</span><span class="n">n.</span>
+            </div>
+            <div class="hero_subheading">
+                <p class="text_1">Managing domains has never been so cool.</p>
+            </div>
+            <div class="btn_2">Get Started</div>
+        </div>
+    </section>
+    <section class="card_container">
+        <div class="box_1">
+            <div class="card">
+                <h2 class="card_heading">Buy</h2>
+                <div class="card_subheading">Buy domains in seconds</div>
+                <p class="card_text">Choose from hundreds of domains, easy pessy with Nuage.</p>
+            </div>
+        </div>
+        <div class="box_2">
+            <div class="card">
+                <h2 class="card_heading">A - Z</h2>
+                <div class="card_subheading">Import all your domains instantly.</div>
+                <p class="card_text">Manage domains from different registorars in a single app.</p>
+            </div>
+        </div>
+        <div class="box_3">
+            <div class="card">
+                <h2 class="card_heading">Day-30</h2>
+                <div class="card_subheading">Never lose your domain again</div>
+                <p class="card_text">Your domains will be automatically renewed on time except those you don't want
+                    anymore.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_box1">
+            <div class="footer_text">Buy, import, renew, right now.</div>
+            <div class="btn_3">Get Started</div>
+        </div>
+        <div class="footer_box2">
+            <p class="f_text1">2024 &#169 Nuage.Inc All rights reserved.</p>
+            <p class="f_text2">
+                <a href="#">Contact</a>
+                <a href="#">Blog</a>
+                <a href="#">Terms of service</a>
+                <a href="#">Privacy</a>
+                <a href="#">Q & A</a>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
