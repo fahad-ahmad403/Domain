@@ -655,3 +655,28 @@ footer {
         padding-top: 0;
     }
 }
+
+@media screen and (max-width: 280px) {
+    .card_container .box_1 .card,
+    .card_container .box_2 .card,
+    .card_container .box_3 .card {
+        width: 240px;
+    }
+
+    .box_1 .card,
+    .box_2 .card,
+    .box_3 .card {
+        width: 150px;
+    }
+
+    .box_1 .card_heading,
+    .box_2 .card_heading,
+    .box_3 .card_heading {
+        font-size: 3em;
+    }
+
+    .footer_box2 {
+        padding-top: 2em;
+        margin: 0 1em;
+    }
+}
