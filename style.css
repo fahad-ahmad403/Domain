@@ -514,7 +514,11 @@ footer {
 
 @media screen and (max-width: 970px) {
     .hero_section {
-        height: 500px;
+        height: 450px;
+    }
+
+    .hero_heading {
+        font-size: 9em;
     }
 
     .card_container {
@@ -558,7 +562,7 @@ footer {
     }
 
     .hero_heading {
-        font-size: 9em;
+        font-size: 7em;
     }
 
     .footer_box2 {
