@@ -75,3 +75,12 @@ function dropdown_display() {
     mobile_submenu.classList.toggle("dropdownlinks_display");
     activelink.classList.toggle("is_active");
 }
+
+const lenis = new Lenis()
+
+function raf(time) {
+    lenis.raf(time)
+    requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
