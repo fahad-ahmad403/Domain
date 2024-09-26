@@ -4,10 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Managing domains has never been so cool.">
+    <meta name="keywords" content="domain, hosting, domain website">
+    <meta name="author" content="Fahad Ahmad">
     <title>Domain.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -18,20 +23,20 @@
                 <li class="mobile_nav"><a href="#">Home</a></li>
                 <li class="mobile_nav"><a href="#" onclick="dropdown()" id="arrow">Features <i
                             class="fa-solid fa-angle-down"></i></a></li>
-                <div class="sub_menu">
+                <li class="sub_menu">
                     <a href="#">Feature-1</a>
                     <a href="#">Feature-2</a>
                     <a href="#">Feature-3</a>
                     <a href="#">Feature-4</a>
-                </div>
+                </li>
                 <li class="mobile_nav"><a href="#">Pricing</a></li>
             </ul>
             <ul>
                 <li><a href="#">Log in</a></li>
-                <div class="btn_1">Sign up</div>
+                <li class="btn_1">Sign up</li>
             </ul>
         </nav>
-        <li class="nav_icon"><i class="fa-solid fa-bars" onclick="open_sidebar()"></i></li>
+        <div class="nav_icon"><i class="fa-solid fa-bars" onclick="open_sidebar()"></i></div>
         <div class="mobile_sidebar">
             <div onclick="close_sidebar()"><i class="fa-solid fa-xmark"></i></div>
             <a href="#">Home</a>
@@ -52,10 +57,10 @@
     </header>
     <section class="hero_section">
         <div class="hero_container">
-            <div class="hero_heading">
+            <h1 class="hero_heading">
                 <span class="d">D</span><span class="o">o</span><span class="m">m</span><span class="a">a</span><span
                     class="i">i</span><span class="n">n.</span>
-            </div>
+            </h1>
             <div class="hero_subheading">
                 <p class="text_1">Managing domains has never been so cool.</p>
             </div>
@@ -88,11 +93,11 @@
     </section>
     <footer>
         <div class="footer_box1">
-            <div class="footer_text">Buy, import, renew, right now.</div>
+            <h2 class="footer_text">Buy, import, renew, right now.</h2>
             <div class="btn_3">Get Started</div>
         </div>
         <div class="footer_box2">
-            <p class="f_text1">2024 &#169 Nuage.Inc All rights reserved.</p>
+            <p class="f_text1">2024 &#169; Nuage.Inc All rights reserved.</p>
             <p class="f_text2">
                 <a href="#">Contact</a>
                 <a href="#">Blog</a>

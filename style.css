@@ -218,7 +218,6 @@ li a:hover i {
     width: 100%;
     height: 600px;
     background-color: var(--white);
-    cursor: default;
     z-index: 3;
 }
 
@@ -230,6 +229,7 @@ li a:hover i {
 
 .hero_heading {
     font-size: 12em;
+    font-weight: 400;
 }
 
 .hero_heading .d,
@@ -310,7 +310,6 @@ li a:hover i {
     width: 400px;
     height: 500px;
     background-color: var(--white);
-    cursor: default;
     transition: opacity 1s, left 1s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -327,7 +326,6 @@ li a:hover i {
     width: 400px;
     height: 500px;
     background-color: var(--white);
-    cursor: default;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 0;
     transition: opacity 1s, right 1s;
@@ -345,7 +343,6 @@ li a:hover i {
     width: 400px;
     height: 500px;
     background-color: var(--white);
-    cursor: default;
     transition: opacity 1s, left 1s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -410,7 +407,6 @@ footer {
     font-size: 2em;
     font-weight: bold;
     padding-bottom: 1em;
-    cursor: default;
 }
 
 .btn_3 {
@@ -458,13 +454,38 @@ footer {
 
 .f_text1 {
     color: var(--grey);
-    cursor: default;
 }
 
 .f_text2 a {
     text-decoration: none;
     padding: 0 0.5em;
     color: var(--grey);
+}
+
+@media (hover: none) {
+
+    li a:hover::after {
+        width: 0;
+    }
+
+    .btn_1 {
+        color: var(--black) !important;
+    }
+
+    .btn_1::before {
+        width: 0 !important;
+    }
+
+    .btn_2,
+    .btn_3 {
+        color: var(--white) !important;
+    }
+
+    .btn_2::before,
+    .btn_3::before {
+        width: 100% !important;
+    }
+
 }
 
 @media screen and (max-width: 1270px) {
@@ -589,7 +610,7 @@ footer {
     }
 
     .footer_box2 {
-        padding-top: 0.5em;
+        padding: 0.5em;
     }
 
     .footer_text {
@@ -655,12 +676,13 @@ footer {
     }
 
     .footer_box2 {
-        padding-top: 2em;
+        padding-top: 0.5em;
         margin: 0 2em;
     }
 }
 
 @media screen and (max-width: 280px) {
+
     .card_container .box_1 .card,
     .card_container .box_2 .card,
     .card_container .box_3 .card {
@@ -680,7 +702,7 @@ footer {
     }
 
     .footer_box2 {
-        padding-top: 2em;
+        padding-top: 0.5em;
         margin: 0 1em;
     }
 }
